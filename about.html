@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title> Home </title>
+<title>关于</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -43,7 +44,6 @@
 </head>
 <body>
 	<!--start-header-->
-			<div id="home" class="banner">
 					<div class="header">
 						<div class="container">
 							<div class="logo">
@@ -52,34 +52,15 @@
 							<!--start-top-nav-->
 							 <nav class="top-nav">
 								<ul class="top-nav">
-									<li><a href="index.html">主页</a></li>&nbsp;/
+										<li><a href="index.html">主页</a></li>&nbsp;/
 									<li><a href="about.html">关于</a></li>&nbsp;/
-									
-									
 								</ul>
 								<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
 							</nav>
 							<div class="clearfix"> </div>
 						</div>
 				</div>
-				<div class="banner-text">
-					<div  id="top" class="callbacks_container">
-			      		<ul class="rslides" id="slider4">
-			        	<li>
-							<div class="banner-top">
-								<h1>知识改变世界，科学改变生活。</h1>	
-								<div class="bttn">
-									<a href="#">未来</a>
-								</div>
-							</div>
-						</li>
-						
-			      </ul>
-			    </div>
-			    <div class="clearfix"> </div>
-				</div>
-			</div>
-		<!--End-header-->
+		<!--End-header->
 		<!--Slider-Starts-Here-->
 				<script src="js/responsiveslides.min.js"></script>
 			 <script>
@@ -103,53 +84,52 @@
 			    });
 			  </script>
 			<!--End-slider-script-->
-			<!--about-starts-->
-			<div class="time">
+			<!--starts-about-->
+			<div class="about">
 				<div class="container">
-					<div class="time-top">
-						<h3>我们要认真去探索和学习所有的东西</h3>
-						<p>信息技术的日新月异地发展以及由它引发的社会信息化，给社会生活带来了巨大的影响，使人类社会将进入信息时代。</p>
-					</div>
-					<div class="time-bottom">
-						<div class="col-md-4 about-bottom-one">
-							<span class="time-one"></span>
+					<div class="about-top">
+						<h3>关于</h3>
+						<P>这是一个个人小站点，用以记录点点滴滴的小事。</P>
+						
 						</div>
-						<div class="col-md-4 about-bottom-one">
-							<span class="time-two"></span>
-						</div>
-						<div class="col-md-4 about-bottom-one">
-							<span class="time-tre"></span>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+				
 				</div>
 			</div>
 			<!--End-about-->
+			<!--Responsive-tabs-Starts-Here-->
+	<div class="responsive-tabs" id="project">
+		<div class="container">
+			<div class="tabs-box clock wow bounceIn">
+			<ul class="tabs-menu">
+				<li><a href="#tab1">关于个人</a></li>
+				<li><a href="#tab2">扩展信息</a></li>
+				
+			</ul>
+			<div class="clearfix"> </div>
+			<div class="tab-grids">
+				<div id="tab1" class="tab-grid">
+						<p>一个小码工.</p>
+						<p>混迹魔都的码工，从事过it相关各种工种。</p>
+						<p>乐于交流、共享技术信息</p>
+						
+   				</div>
+				<div id="tab2" class="tab-grid">
+						<p>联系信息：</p>
+						<p>E-mail:<a href=mailto:8362911@q.com>点击发送电子邮件</a></p>
+</p>
 
-			<!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider5").responsiveSlides({
-			        auto: true,
-			        pager: true,
-			        nav: true,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
+						
+   				</div>
 			
-			    });
-			  </script>
-			<!--End-slider-script-->
-
+			</div>
+			</div>
+		</div>
+		<!--Script-->
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/myscript.js"> </script>
+`		<!--Script-->
+	</div>
+<!--Responsive-tabs-ends-Here-->
 			<!--starts-footer-->
 			<div class="footer">
 				<div class="container">

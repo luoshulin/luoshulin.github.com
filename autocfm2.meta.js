@@ -2,7 +2,7 @@
 // @name        自动确认交易
 // @namespace   luoshulin@163.com
 // @description 让交易确认自动化
-// @version     3
+// @version     4
 // @grant       none
 // @match      http://112.78.104.13/app/member/*
 // @match      http://*.hg0088.com/*
